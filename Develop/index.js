@@ -35,20 +35,34 @@ function promptUser() {
       {
         type: "input",
         name: "test",
-        message: "Provide test instructions."
+        message: "Provide test instructions"
       }
+      {
+       type: "checkbox",
+       name: "License",
+      message: "Choose your License",
+      choices: [
+          'Apache', 'MIT', 'GPL','BSD'
+      ]
+    }
     ]);
   }
   
 
-// function to write README file
-function writeToFile(fileName, data) {
-}
-
-// function to initialize program
-function init() {
-
-}
-
-// function call to initialize program
-init();
+  async function init() {
+    console.log("hi")
+    try {
+      const answers = await promptUser();
+  
+      const html = generateHTML(answers);
+  
+      await writeFileAsync("index.html", html);
+  
+      console.log("Successfully wrote to index.html");
+    } catch(err) {
+      console.log(err);
+    }
+  }
+  
+  init();
+  

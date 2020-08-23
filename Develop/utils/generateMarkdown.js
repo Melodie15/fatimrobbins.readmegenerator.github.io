@@ -1,8 +1,10 @@
+const data = requir("../ReadME.json")
+
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+ try { return `# ${data.title}
 
 `;
-}
+}}
 
 module.exports = generateMarkdown;

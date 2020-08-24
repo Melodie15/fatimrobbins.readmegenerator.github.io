@@ -1,39 +1,19 @@
 ##Title 
 ReadME Generator
 ##Description 
-Helps developers quickly write a ReadME
+Developers are able to quickly generate a quality ReadME for their projects
 ##Table of Contents 
--  n/a
+-  Title, Description, Installation Instructions, Usage, License, How to contribute, Author/Authors, Test, Questions
 ##Installation Instructions 
-npm i
+Install with npm i
 ##Usage 
-npm y
+Start the app with node index.js
 ##License 
 
 ##How to Contribute 
 undefined
 ##Authors 
-Fatim Robbins
-##How to Run Tests
-test all here
-##Contact Info
-Fatim Robbins fmsis@hotmail.com
-##Title 
-ReadME Generator
-##Description 
-Generate quick and clean ReadMEs
-##Table of Contents 
--  Title, Description, Table of contents, Installation Instructions, Usage, License
-##Installation Instructions 
-npm i
-##Usage 
-npm y
-##License 
-
-##How to Contribute 
-undefined
-##Authors 
-Fatim Robbins
+Fatim Robbin
 ##How to Run Tests
 test all here
 ##Questions

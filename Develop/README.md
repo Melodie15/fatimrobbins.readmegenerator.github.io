@@ -38,3 +38,23 @@ n
 n
 ##Contact Info
 ![alt text](undefined
+##Title 
+ReadME Generator
+##Description 
+Generates a good ReadMe on the spot
+##Table of Contents 
+-  n/a
+##Installation Instructions 
+npm i
+##Usage 
+start the app with node index.js
+##License 
+
+##How to Contribute 
+undefined
+##Authors 
+Fatim Robbins
+##How to Run Tests
+test all here
+##Contact Info
+Fatim Robbins fmsis@hotmail.com

@@ -53,7 +53,7 @@ const questions = [
         },
         {
             type: "input",
-            name: "toc",
+            name: "content",
             message: "List your table of contents"
         },
 ]
@@ -74,7 +74,7 @@ inquirer
             }
             console.log("It works");
         });
-        fs.appendFileSync("README.md", ("##Table of Contents " + '\n' + '-  ' + response.toc.split(",  ").join('\n' + '-  ')) + '\n', function (err) {
+        fs.appendFileSync("README.md", ("##Table of Contents " + '\n' + '-  ' + response.content.split(",  ").join('\n' + '-  ')) + '\n', function (err) {
             if (err) {
                 return console.log(err);
             }
@@ -126,5 +126,4 @@ fs.appendFileSync("README.md", ("##Contact Info" + '\n' + response.contact) + '\
        }
 console.log("It works");
 });
-console.clear();
 })

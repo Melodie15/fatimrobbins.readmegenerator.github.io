@@ -58,3 +58,83 @@ Fatim Robbins
 test all here
 ##Contact Info
 Fatim Robbins fmsis@hotmail.com
+##Title 
+ReadME Generator
+##Description 
+Helps the Developer generate a quality ReadME quickly
+##Table of Contents 
+-  n/
+##Installation Instructions 
+npm i
+##Usage 
+start the app with node index.js
+##License 
+
+##How to Contribute 
+undefined
+##Authors 
+Fatim Robbins
+##How to Run Tests
+test here
+##Contact Info
+Fatim Robbins fmsis@hotmail.com
+##Title 
+n/a
+##Description 
+n
+##Table of Contents 
+-  n
+##Installation Instructions 
+n
+##Usage 
+n
+##License 
+
+##How to Contribute 
+undefined
+##Authors 
+n
+##How to Run Tests
+n
+##Contact Info
+n
+##Title 
+ReadME Generator
+##Description 
+To help developers quickly write out a quality ReadME
+##Table of Contents 
+-  n/a
+##Installation Instructions 
+npm i
+##Usage 
+start with node index.js
+##License 
+
+##How to Contribute 
+undefined
+##Authors 
+Fatim Robbins
+##How to Run Tests
+test all here
+##Contact Info
+Fatim Robbins fmsis@hotmail.com
+##Title 
+n
+##Description 
+n
+##Table of Contents 
+-  n
+##Installation Instructions 
+n
+##Usage 
+n
+##License 
+
+##How to Contribute 
+undefined
+##Authors 
+n
+##How to Run Tests
+n
+##Contact Info
+n

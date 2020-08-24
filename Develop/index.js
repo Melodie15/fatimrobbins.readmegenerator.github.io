@@ -2,9 +2,6 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
 
-// const writeFileAsync = util.promisify(fs.writeFile);
-
-// array of questions for user
 const questions = [
         {
             type: "input",
@@ -129,4 +126,5 @@ fs.appendFileSync("README.md", ("##Contact Info" + '\n' + response.contact) + '\
        }
 console.log("It works");
 });
+console.clear();
 })

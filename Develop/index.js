@@ -15,6 +15,11 @@ const questions = [
         },
         {
             type: "input",
+            name: "content",
+            message: "List your table of contents"
+        },
+        {
+            type: "input",
             name: "installation",
             message: "Provide installation instructions?"
         },
@@ -48,14 +53,15 @@ const questions = [
         },
         {
             type: "input",
-            name: "contact",
-            message: "Enter your contact infol"
+            name: "question1",
+            message: "Enter your email address"
         },
         {
             type: "input",
-            name: "content",
-            message: "List your table of contents"
+            name: "question2",
+            message: "What is your Github username"
         },
+      
 ]
 console.clear();
 
@@ -120,7 +126,13 @@ fs.appendFileSync("README.md", ("##How to Run Tests" + '\n' + response.test) + '
        }
 console.log("It works");
 });
-fs.appendFileSync("README.md", ("##Contact Info" + '\n' + response.contact) + '\n', function (err) {
+fs.appendFileSync("README.md", ("##Questions" + '\n' + response.question1) + '\n', function (err) {
+    if (err) {
+      return console.log(err);
+       }
+console.log("It works");
+});
+fs.appendFileSync("README.md", ("##Questions" + '\n' + response.question2) + '\n' + 'https://melodie15.github.io/fatimrobbins.readmegenerator.github.io/', function (err) {
     if (err) {
       return console.log(err);
        }

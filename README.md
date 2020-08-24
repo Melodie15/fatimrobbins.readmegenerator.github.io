@@ -5,7 +5,7 @@ ReadME Generator
 **#User Story**\
 AS A developer
 I WANT a README generator
-SO THAT can quickly create a professional README for a new project
+SO THAT can quickly create a professional README for a new project.
 
 **#Description**
 Answer questions from the Node.js prompt, the answers are then populated directly into the ReadME.

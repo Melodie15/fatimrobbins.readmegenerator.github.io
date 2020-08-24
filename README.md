@@ -20,6 +20,7 @@ Answer questions from the Node.js prompt, the answers are then populated directl
 Fatim S.Robbins
 fmsis@hotmail.com
 
-**#Screenshot**
-<img src="screenshot.png" alt="project screenshot">
+**#Screenshot**\
+
+<img src="Screenshot.png" alt="project screenshot">
 

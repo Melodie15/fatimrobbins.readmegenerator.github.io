@@ -1,12 +1,12 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-// const util = require("util");
+const util = require("util");
 
 // const writeFileAsync = util.promisify(fs.writeFile);
 
 // array of questions for user
-function promptUser() {
-    return inquirer.prompt([
+const questions = [
+
         {
             type: "input",
             name: "badge",
@@ -33,30 +33,49 @@ function promptUser() {
             message: "Provide usage information?"
         },
         {
-            type: "input",
-            name: "contribution",
-            message: "Provide contribution guidelines"
-        },
-        {
-            type: "input",
-            name: "test",
-            message: "Provide test instructions"
-        }
-      {
             type: "checkbox",
             name: "License",
             message: "Choose your License",
             choices: [
                 'Apache', 'MIT', 'GPL', 'BSD'
             ]
-        }
-    ]);
-}
+      },
+        {
+            type: "input",
+            name: "contribution",
+            message: "Provide contribution guidelines"
+        },
+        {
+            type: "input",
+            name: "authors",
+            message: "Please list the author/authors"
+        },
+        {
+            type: "input",
+            name: "test",
+            message: "Provide test instructions"
+        },
+        {
+            type: "input",
+            name: "questions1",
+            message: "Enter photo url"
+        },
+        {
+            type: "input",
+            name: "question2",
+            message: "Enter email"
+        },
+        {
+            type: "input",
+            name: "toc",
+            message: "List your table of contents"
+        },
+]
 console.clear();
 
 
 inquirer
-    .prompt(questions).then(response => {
+    .prompt(questions).then( response => {
         fs.appendFileSync("README.md", ("# " + response.title) + '\n', function (err) {
             if (err) {
                 return console.log(err);
@@ -133,4 +152,4 @@ fs.appendFileSync("README.md", ('\n' + response.questions2) + '\n', function (er
        }
 console.log("It works");
 });
-});
+})
